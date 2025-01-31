@@ -2,7 +2,7 @@ require('dotenv').config();
 const app = require('./config/app');
 const CalendarSyncService = require('./services/calendar/calendar-sync.service');
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 CalendarSyncService.initializeAutoSync();
 
 
